@@ -3,20 +3,21 @@
     id          = "com.phonegap.viitgo"
     versionCode = "10"
     version     = "1.0.0" >
+        <platform name="ios" />
+<platform name="android" />
+<platform name="winphone" />
 
     <!-- versionCode is optional and Android only -->
 
     <name>FADED MB BARBER</name>
 
     <description>
-      Barber app for faded barbershop.
+      Barver application for faded barbershop
     </description>
 
     <author>
-    Faded Urban Grooming Lounge
+    S.S.Hussain
     </author>
-        <!--<preference name="windows-identity-name" value="PhonegapBuild.PGBDeveloper" />-->
-    <!---THIS IS FOR WINDOWS PHONE--->
     <feature name="http://api.phonegap.com/1.0/geolocation"/>
 
     <!-- We'll include the Barcode plugin as an example -->
