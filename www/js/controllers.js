@@ -127,7 +127,7 @@ angular.module('app.controllers', [])
 
     var url = 'http://fadedbarbershop.co.uk/rest/rest.php/login';
 
-    $http.post(url, input).then(function(response)
+  /*  $http.post(url, input).then(function(response)
         {
           //success
           var status = response.data.status + '!';
@@ -150,6 +150,23 @@ angular.module('app.controllers', [])
         {
 
           showAlert('danger!','Some error occured. Please try again.');
+        });*/
+		
+		    $http.post(url, input).then(function(response) {
+            //success
+            var status = response.data.status + '!';
+            status = status.trim();
+            var message = response.data.message;
+            message = message.trim();
+            console.log(status);
+            if (status.trim() == 'success!') {
+                $state.go('menu.requests');
+            }
+            showAlert(status, message);
+
+        }).catch(function(response) {
+console.log(response);
+            showAlert('danger!', 'Some error occured. Please try again.');
         });
 }
 
