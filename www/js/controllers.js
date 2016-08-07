@@ -2055,11 +2055,11 @@ var url_username = 'http://fadedbarbershop.co.uk/rest/rest.php/admin/username_by
 
 				$scope.eventSources= filtered;
         v_events=filtered;
-				showAlert('success!','got data!');
+				//showAlert('success!','got data!');
 		}
 	else
 		{
-			showAlert('danger!','havent got any data!');
+			showAlert('danger!','No appointments found!');
 
 		}
         $scope.uiConfig = {
