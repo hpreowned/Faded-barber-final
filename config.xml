@@ -13,7 +13,7 @@
     </description>
 
     <author href="https://build.phonegap.com" email="support@phonegap.com">Faded Urban Grooming Lounge</author>
-    <preference name="windows-identity-name" value="9211FadedUrbanGroomingLou.FadedClient" />
+    <preference name="windows-identity-name" value="9211FadedUrbanGroomingLou.FadedBarberShop" />
 
     <!--
         If you do not want any permissions to be added to your app, add the
