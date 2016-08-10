@@ -78,10 +78,30 @@
     <icon src="www/res/icon/android/icon-96-xhdpi.png"  gap:platform="android"    gap:qualifier="xhdpi" />
     <icon src="www/res/icon/blackberry/icon-80.png"     gap:platform="blackberry" />
     <icon src="www/res/icon/blackberry/icon-80.png"     gap:platform="blackberry" gap:state="hover"/>
+    
     <icon src="www/res/icon/ios/icon-57.png"            gap:platform="ios"        width="57" height="57" />
     <icon src="www/res/icon/ios/icon-72.png"            gap:platform="ios"        width="72" height="72" />
     <icon src="www/res/icon/ios/icon-57-2x.png"         gap:platform="ios"        width="114" height="114" />
     <icon src="www/res/icon/ios/icon-72-2x.png"         gap:platform="ios"        width="144" height="144" />
+    <!-- iPhone 6 / 6+ -->
+    <icon src="www/res/icon/ios/icon-60@3x.png" platform="ios" width="180" height="180" />
+        
+    <!-- iPhone / iPod Touch  -->
+    <icon src="www/res/icon/ios/icon-60.png" platform="ios" width="60" height="60" />
+    <icon src="www/res/icon/ios/icon-60@2x.png" platform="ios" width="120" height="120" />
+        
+    <!-- iPad -->
+    <icon src="www/res/icon/ios/icon-76.png" platform="ios" width="76" height="76" />
+    <icon src="www/res/icon/ios/icon-76@2x.png" platform="ios" width="152" height="152" />
+        
+    <!-- Settings Icon -->
+    <icon src="www/res/icon/ios/icon-small.png" platform="ios" width="29" height="29" />
+    <icon src="www/res/icon/ios/icon-small@2x.png" platform="ios" width="58" height="58" />
+        
+    <!-- Spotlight Icon -->
+    <icon src="www/res/icon/ios/icon-40.png" platform="ios" width="40" height="40" />
+    <icon src="www/res/icon/ios/icon-40@2x.png" platform="ios" width="80" height="80" />
+    
     <icon src="www/res/icon/webos/icon-64.png"          gap:platform="webos" />
     <icon src="www/res/icon/windows-phone/icon-48.png"  gap:platform="winphone" />
     <icon src="www/res/icon/windows-phone/icon-173.png" gap:platform="winphone"   gap:role="background" />
@@ -131,4 +151,15 @@
         <allow-intent href="itms-apps:*" />
     </platform>
 <platform name="winphone" />
+</widget>
+<!-- Android -->
+<widget versionCode="0.1.0">
+</widget>
+
+<!-- iOS -->
+<widget CFBundleVersion="0.1.0">
+</widget>
+
+<!-- Windows -->
+<widget packageVersion="0.1.0">
 </widget>
